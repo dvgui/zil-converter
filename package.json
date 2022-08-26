@@ -1,0 +1,29 @@
+{
+  "name": "zilliqa bech-base converter api",
+  "version": "1.0.0",
+  "description": "simple app to switch between address formats",
+  "main": "index.js",
+  "engines": { "node": "16.x" },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "zilliqa",
+    "crypto",
+    "node",
+    "javascript"
+  ],
+  "author": "Guido De Vita",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0",
+    "@zilliqa-js/crypto": "^3.3.4",
+    "@zilliqa-js/util": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
